@@ -66,7 +66,7 @@ ana kökümüzü 5 olarak seçelim
 
 şimdi x için bakalım 2 yi kök seçelim 
 
-x in sağ tarafı [3,4]  2 nin 1. sağı 3 3 ün 1. sağı 4
+x in sağ tarafı [3,4]  2 nin 1. sağı 3, 3 ün 1. sağı 4
 
 x in sol tarafı [0,1] 2 nin 1. solu 0 olsun 0 ın sağı da 1 olsun
 
@@ -74,6 +74,8 @@ x in sol tarafı [0,1] 2 nin 1. solu 0 olsun 0 ın sağı da 1 olsun
 
 y nin  sağı [9] 8 in 1. sağı 9
 
-y nin  solu [6,7] 8 in 1. solu 6 olsun 6 nın 1. sağı 7 olsun 
+y nin  solu [6,7] 8 in 1. solu 6 olsun 6 nın 1. sağı 7 olsun
+
+bu örneğin eleman sayısı az ama fazla olursa ağacı yapmak daha zorlaşabilir
 
 ---
