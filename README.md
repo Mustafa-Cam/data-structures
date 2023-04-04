@@ -36,5 +36,23 @@ notasyonda da katsayıları vs atarsak n^2 Big O notasyonumuza ulaşıyoruz
 4.adım => [2,3,4,5,7,8,9,15,6] 
 
 ```
+-----------------------------------
 
+# Marge Sort
 
+[16,21,11,8,12,22] -> Merge Sort
+
+[16,21,11]  [8,12,22]
+
+16 [21,11] -- 8 [12,22]
+
+[11,16,21] --  [8,12,22]
+
+burda 11 ile 8 karşılaştırılır sonra 8 11 şeklinde yazılır sonra 16 ile 12 ,, 12 16  şeklinde yazılır böyle böyle gider 
+
+[8,11,12,16,21,22]
+sonuç
+
+Big O >> ilk 2 ye bölünüyor o kısımdan logn geliyor sonra n elemanlı için n-1 sorgulama yapılıyor ordan da n geliyor çarpınca Big O notasyonumuz (nlogn) oluyor 
+
+---
