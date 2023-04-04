@@ -56,3 +56,24 @@ sonuç
 Big O >> ilk 2 ye bölünüyor o kısımdan logn geliyor sonra n elemanlı için n-1 sorgulama yapılıyor ordan da n geliyor çarpınca Big O notasyonumuz (nlogn) oluyor 
 
 ---
+---
+# Binary Search Tree
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+ana kökümüzü 5 olarak seçelim 
+[0,1,2,3,4] = x bu kökümüzün sol tarafı 
+[6,7,8,9] = y bu da sağ tarafı
+
+şimdi x için bakalım 2 yi kök seçelim 
+
+x in sağ tarafı [3,4]  2 nin 1. sağı 3 3 ün 1. sağı 4
+
+x in sol tarafı [0,1] 2 nin 1. solu 0 olsun 0 ın sağı da 1 olsun
+
+şimdi y için bakalım 8 i kök seçelim 
+
+y nin  sağı [9] 8 in 1. sağı 9
+
+y nin  solu [6,7] 8 in 1. solu 6 olsun 6 nın 1. sağı 7 olsun 
+
+---
